@@ -1,6 +1,6 @@
-FROM amd64/python:3-alpine
+FROM python:3.9.0-alpine
 
-LABEL maintainers="dirtycajunrice,circa10a"
+LABEL maintainers="dirtycajunrice,circa10a,adamus1red"
 
 ENV TZ UTC
 
