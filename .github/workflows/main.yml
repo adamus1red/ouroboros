@@ -36,7 +36,7 @@ jobs:
       -
         name: Docker meta
         id: meta
-        uses: docker/metadata-action@v3
+        uses: docker/metadata-action@v4
         with:
           images: adamus1red/ouroboros,ghcr.io/adamus1red/ouroboros
           tags: |
