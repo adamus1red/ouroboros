@@ -1,4 +1,4 @@
-FROM python:3.10.4-alpine
+FROM python:3.11.0b5-alpine
 LABEL maintainers="dirtycajunrice,circa10a,adamus1red"
 
 ENV TZ UTC
