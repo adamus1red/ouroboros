@@ -28,6 +28,6 @@ setup(
                  'Programming Language :: Python :: 3.7'],
     packages=find_packages(),
     scripts=['ouroboros'],
-    install_requires=get_requirements(),
+#    install_requires=get_requirements(),
     python_requires='>=3.6.2'
 )
