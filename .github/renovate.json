@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "config:best-practices",
+    "docker:enableMajor",
+    "preview:dockerCompose"
+  ],
+  "packageRules": [
+    {
+      "matchDatasources": [
+        "docker"
+      ],
+      "versioning": "semver"
+    },
+    {
+      "matchUpdateTypes": [ "*" ],
+      "automerge": true
+    }
+  ],
+  "forkProcessing": "enabled",
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  }
+}
