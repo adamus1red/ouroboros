@@ -5,5 +5,5 @@ influxdb>=5.2.1
 apprise>=0.8.5
 apscheduler>=3.5.3
 setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
-urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
 zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
